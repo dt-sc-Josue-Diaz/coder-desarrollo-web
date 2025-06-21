@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Fuente y color de fondo */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 239, 210);
+    color: rgb(80, 42, 27);
+    line-height: 1.6;
+}
+
+/* Estilo del encabezado */
+header {
+    background-color: rgb(138, 51, 36);
+    padding: 1rem 0;
+    text-align: center;
+}
+
+/* Menú de navegación */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    /* Enlaces del menú */
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    padding: 10px 15px;
+    transition: background 0.3s;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: rgb(168, 88, 56);
+}
+
+main {
+    padding: 2rem;
+    /* Contenido principal */
+    text-align: center;
+}
+
+h1,
+h2 {
+    color: rgb(120, 66, 18);
+    /* Títulos */
+    margin-bottom: 1rem;
+}
+
+p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+
+/* Imágenes */
+img {
+    width: 85%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Caption en la imagen de los portafolios */
+.portfolio-gallery figcaption,
+.services-list figcaption {
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    color: #333;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.services-list h2 {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    color: #333;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+video {
+    width: 80%;
+    /* Videos */
+    border-radius: 8px;
+    margin-top: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    background-color: rgb(138, 51, 36);
+    /* Pie de página */
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 1.5rem;
+    margin-top: 2rem;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin: 0 10px;
+}
+
+footer a:hover {
+    color: rgb(168, 88, 56);
+}
+
+.redes a {
+    font-size: 50px;
+    color: orange;
+    text-decoration: none;
+    /* letter-spacing: 25px; */
+}
